@@ -6,16 +6,23 @@
 package javaapplication2;
 
 /**
+
  * Esimene katsetus. Muutujad, valik, massiiv
  * @author if17
  */
 public class JavaApplication2 {
+    
+    /**
+     *  * Alamprogramm toa soojuse hindamiseks vastavalt temperatuurile
+     * vähemalt kolm taset
+     */
 
     
-    public static void ilmaKommentaar(){
+    public static void toaSoojus(){
         int temperatuur =-2;
-        if(temperatuur>0){System.out.println("Sulab");}
-        else{System.out.println("Jäätab");}
+        if(temperatuur>0){System.out.println("Jahe");}
+            if(temperatuur<10){System.out.println("Paras");}
+        else{System.out.println("Külm");}
     }
     /**
      * Programmi töö algus koht
@@ -23,7 +30,7 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         System.out.println("Hello, web!");
-        ilmaKommentaar();
+        toaSoojus();
     }
     
 }
