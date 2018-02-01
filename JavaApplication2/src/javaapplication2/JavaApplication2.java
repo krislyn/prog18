@@ -19,9 +19,9 @@ public class JavaApplication2 {
 
     
     public static void toaSoojus(){
-        int temperatuur =-2;
-        if(temperatuur>0){System.out.println("Jahe");}
-            if(temperatuur<10){System.out.println("Paras");}
+        int temperatuur =23;
+        if(temperatuur>23){System.out.println("Soe");}
+            if(temperatuur>20){System.out.println("Paras");}
         else{System.out.println("Külm");}
     }
     /**
